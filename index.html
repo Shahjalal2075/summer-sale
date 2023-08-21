@@ -59,7 +59,9 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5 mb-10">
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 1 -->
+
+                    <div id="item1" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod1.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -74,7 +76,9 @@
                         </div>
                     </div>
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 2 -->
+
+                    <div id="item2" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod2.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -89,7 +93,9 @@
                         </div>
                     </div>
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 3 -->
+
+                    <div id="item3" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod3.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -110,7 +116,9 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5">
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 4 -->
+
+                    <div id="item4" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod4.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -125,7 +133,9 @@
                         </div>
                     </div>
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 5 -->
+
+                    <div id="item5" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod5.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -140,7 +150,9 @@
                         </div>
                     </div>
 
-                    <div class="card bg-site-white p-3">
+                    <!-- item 6 -->
+
+                    <div id="item6" class="card bg-site-white p-3">
                         <figure class="bg-[#F8F8F8] p-6 rounded-lg"><img src="/images/prod6.png" alt="K. Accessories" /></figure>
                         <div class="card-body items-center">
                             <div class="rating">
@@ -166,16 +178,16 @@
                     </div>
                 </div>
                 <div class="bg-site-white rounded mb-4">
-                    <div class=" p-5">
+                    <div id="product-name" class=" p-5">
                         <p class="text-sm font-semibold text-site-black mb-1">1. Home Cooker</p>
                         <p class="text-sm font-semibold text-site-black mb-1">2. Sports cates</p>
                         <p class="text-sm font-semibold text-site-black mb-1">3. Home Cooker</p>
                     </div>
                     <hr class="w-11/12 bg-[#F8F8F8] mx-auto">
                     <div class="p-5">
-                        <p class="text-sm font-semibold text-site-black mb-1">Total price: <span class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
-                        <p class="text-sm font-semibold text-site-black mb-1">Discount: <span class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
-                        <p class="text-sm font-semibold text-site-black mb-1">Total: <span class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
+                        <p class="text-sm font-semibold text-site-black mb-1">Total price: <span id="total-price" class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
+                        <p class="text-sm font-semibold text-site-black mb-1">Discount: <span  id="discount-price" class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
+                        <p class="text-sm font-semibold text-site-black mb-1">Total: <span id="full-total-price" class="text-[#11111180]">0.00</span><span class="text-[#11111180]">TK</span></p>
                     </div>
                     <hr class="w-11/12 bg-[#F8F8F8] mx-auto">
                     <div class=" p-5">
@@ -202,5 +214,7 @@
         </section>
 
     </main>
+
+    <script src="js/calculate.js"></script>
 </body>
 </html>
